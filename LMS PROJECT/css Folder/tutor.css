@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Montserrat:wght@600;700&family=PT+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    max-height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #1F262C;
+    width: 100%;
+}
+.header h4{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.aside{
+    background-color: #1F262C;
+    width: 12%;
+    padding-top: 18px;
+    padding-bottom: 27%;
+}
+.main-content{
+    display: flex;
+}
+
+ul li{
+    margin-top: 16px;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: blue; 
+}
+.page-content{
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    background: #F1F1F1;
+    width: 100%;
+    width: 100%;
+}
+.box{
+    margin: 26px auto;
+    width: 95%;
+    background-color: #e7e7e7;
+    padding: 60px;
+}
+.info-box{
+    background-color: white;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+.info-box img{
+    width: 22px;
+}
+.info-box h3{
+    border-bottom: 2px gray;
+    font-size: 24px;
+}
+.client-name{
+   display: flex;
+}
+.client-name img{
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+}
+.client-info{
+    display: flex;
+    margin-top: 18px;
+    width: 50%;
+    background-color:#F7F7F7;
+    opacity: 0.9;
+    justify-content: space-between;
+}
+.icons{
+    gap: 9px;
+    margin: 14px;
+    display: flex;
+    width: 40px;
+    cursor: pointer;
+}
+.client-info p{
+    padding: 15px;
+}
+#main-info button{
+    margin-top: 18px;
+    color: white;
+    background-color: #3058D5;
+   font-weight: bold;
+    padding: 12px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#main-info button a {
+    text-decoration: none;
+    color: white;
+}

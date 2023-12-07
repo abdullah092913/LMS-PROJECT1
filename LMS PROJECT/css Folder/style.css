@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Montserrat:wght@600;700&family=PT+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    max-height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #1F262C;
+    width: 100%;
+}
+.header h4{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.aside{
+    background-color: #1F262C;
+    width: 12%;
+    padding-top: 18px;
+    padding-bottom: 27%;
+}
+.main-content{
+    display: flex;
+}
+
+ul li{
+    margin-top: 16px;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: blue; 
+}
+.page-content{
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    background: #F1F1F1;
+    width: 100%;
+}
+.box{
+    background-color:  #e7e7e7;
+    margin: 26px auto;
+    width: 95%;
+    padding: 60px;
+}
+
+.information{
+    margin-right: 18px;
+    justify-content: space-between;
+    margin-left: 14px;
+    display: flex;
+}
+.information img{
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    display: flex;
+}
+.totalCourses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information div{
+    padding: 12px;
+    margin: 0px 17px 0px 17px;
+    text-align: center;
+    background-color: white;
+    max-width: 60%;
+}
+
+.information div p1 {
+    font-size: 27px;
+}
+
+.Courseenrolled{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Quiz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Lessons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information2{  
+    margin-right: 14px;
+    justify-content: center;
+    margin-left: 14px;
+    display: flex;
+    margin-top: 10px;
+}
+.information2 div{
+    max-width: 60%;
+    padding: 12px;
+    margin: 0px 17px 0px 17px;
+    text-align: center;
+    background-color: white;
+}
+.information2 div p1{
+    font-size: 27px;
+}
+.information2  img{
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    display: flex;
+}
+.Question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instructors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.students{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
